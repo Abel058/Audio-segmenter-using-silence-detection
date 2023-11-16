@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>File Upload Form</title>
+</head>
+<body>
+    <h1>File Upload Form</h1>
+    <form action="http://localhost:5000/split-audio" method="post" enctype="multipart/form-data">
+        <label for="audio">Select a wav file:</label>
+        <input type="file" id="audio" name="audio" accept=".wav">
+        <button type="submit">Upload and Split</button>
+    </form>
+</body>
+</html>
